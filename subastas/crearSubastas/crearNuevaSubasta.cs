@@ -73,6 +73,7 @@ namespace subastas.crearSubastas
                     test.Pass("El elemento fecha de inicio de subasta se muestra correctamente ");
                     fechaInicioSubasta.Click();
                     Thread.Sleep(5000);
+                    Thread.Sleep(2000);
                     
                 }
                 else
